@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet " href="sa2244.css">
+     <title>Card Matching Game</title>
+</head>
+
+
+<body>
+    <h1 id = "title">Matching : Pair Game</h1>
+    <h2 id = "subtitle">Select a board size</h2>
+   <!-- Create radio buttons for selecting the board size. -->
+    <div class = "board-size"> 
+        <input  type="radio" id = "2x4" name = "board-size" value="2x4" /> 2x4
+
+       <input  type= "radio" id = "4x4" name = "board-size" value="4x4" checked/> 4x4
+   
+        <input type="radio" id = "6x4" name = "board-size" value ="6x4" /> 6x4
+   
+    </div>
+    <!-- Create buttons for shuffling and starting the game. -->
+ <div class = "buttons">
+    <button id="shuffle-button" >Shuffle</button>
+    <button id="start-button">Start</button>
+ </div>
+ <!-- Create a board with 24 cards and 24 back boards. -->
+ <div class="board">
+    </div>
+<!-- View JS file-->
+ 
+<!-- Create a modal to display the win message. -->
+<div id="win-modal" class="modal">
+    <div class="modal-content">
+        <p>Congratulations!</p>
+          <button id="play-again-button">Play Again</button>
+    </div>
+</div>
+<div id="loss-modal" class="modal">
+    <div class="modal-content">
+        <p>Game over! Try again!</p>
+         <button id="try-again-button">Try Again</button>
+    </div>
+</div>
+
+<!-- Display the number of clicks and pairs. -->
+<div class = "game-info">
+    <p id="clicks-num" > No. of clicks: 0</p>
+    <p id="pairs-num" >No. of pairs: 0</p>
+</div>
+<!-- Link the JavaScript file to the HTML file. -->
+    <script src="sa2244.js"></script>
+</body>
