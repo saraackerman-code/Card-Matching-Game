@@ -25,20 +25,4 @@ Click cards to flip them and find matching pairs.
 
 Win by matching all pairs before reaching the click limit.
 
-Project Structure
-Code
-project-root/
-│
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── game.js
-├── images/
-│   ├── back.jpg
-│   ├── club_1.png
-│   ├── diamond_1.png
-│   ├── heart_1.png
-│   ├── spade_1.png
-│   └── ... (remaining card images)
-└── README.md
+
